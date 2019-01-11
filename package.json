@@ -1,0 +1,20 @@
+{
+  "name": "uselib",
+  "version": "0.3.0",
+  "description": "JavaScript needs a standard library. We try to provide one that is functional and small.",
+  "keywords": ["standard", "library", "functional", "immutable"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highmountaintea/uselib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/highmountaintea/uselib/issues"
+  },
+  "homepage": "https://github.com/highmountaintea/uselib#readme"
+}
