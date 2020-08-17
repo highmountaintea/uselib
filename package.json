@@ -2,10 +2,16 @@
   "name": "uselib",
   "version": "0.3.0",
   "description": "JavaScript needs a standard library. We try to provide one that is functional and small.",
-  "keywords": ["standard", "library", "functional", "immutable"],
-  "main": "index.js",
+  "keywords": [
+    "standard",
+    "library",
+    "functional",
+    "immutable"
+  ],
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel src --out-dir lib",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -16,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/highmountaintea/uselib/issues"
   },
-  "homepage": "https://github.com/highmountaintea/uselib#readme"
+  "homepage": "https://github.com/highmountaintea/uselib#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "ava": "^3.11.1",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0"
+  }
 }

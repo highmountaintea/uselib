@@ -1,0 +1,10 @@
+src/
+manualtest/
+
+package-lock.json
+pnpm-lock.yaml
+
+.eslintrc.json
+.babelrc
+
+.env
