@@ -12,8 +12,8 @@
   "scripts": {
     "compile": "babel src --out-dir lib",
     "test": "ava",
-    "preversion": "npm test",
-    "version": "npm run compile",
+    "preversion": "npm run compile && npm test",
+    "version": "",
     "postversion": "npm publish"
   },
   "repository": {
