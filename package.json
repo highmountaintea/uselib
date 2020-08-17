@@ -12,7 +12,9 @@
   "scripts": {
     "compile": "babel src --out-dir lib",
     "test": "ava",
-    "version": "npm run compile && npm pack"
+    "preversion": "npm test",
+    "version": "npm run compile",
+    "postversion": "npm pack"
   },
   "repository": {
     "type": "git",
