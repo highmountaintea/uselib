@@ -11,7 +11,8 @@
   "main": "lib/index.js",
   "scripts": {
     "compile": "babel src --out-dir lib",
-    "test": "ava"
+    "test": "ava",
+    "version": "npm run compile && npm pack"
   },
   "repository": {
     "type": "git",
