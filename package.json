@@ -1,6 +1,6 @@
 {
   "name": "uselib",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "JavaScript needs a standard library. We try to provide one that is functional and small.",
   "keywords": [
     "standard",
