@@ -20,7 +20,7 @@ export function runWhenSignaled(fn, options) { // eslint-disable-line no-unused-
     // clear signal
     settings.signaled = false;
     try {
-      await fn();
+      await fn({ signal });
     } catch (e) {
       // not sure what to do here
     }
