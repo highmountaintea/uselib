@@ -4,6 +4,7 @@ devDependencies:
   '@babel/polyfill': 7.10.4
   '@babel/preset-env': 7.11.0_@babel+core@7.11.1
   ava: 3.11.1
+  core-js: 3.6.5
   eslint: 7.7.0
   eslint-config-airbnb-base: 14.2.0_eslint@7.7.0
 lockfileVersion: 5.1
@@ -1725,6 +1726,11 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
+  /core-js/3.6.5:
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
   /core-util-is/1.0.2:
     dev: true
     optional: true
@@ -4635,5 +4641,6 @@ specifiers:
   '@babel/polyfill': ^7.10.4
   '@babel/preset-env': ^7.11.0
   ava: ^3.11.1
+  core-js: ^3.6.5
   eslint: ^7.7.0
   eslint-config-airbnb-base: ^14.2.0
