@@ -1,6 +1,7 @@
 devDependencies:
   '@babel/cli': 7.10.5_@babel+core@7.11.1
   '@babel/core': 7.11.1
+  '@babel/polyfill': 7.10.4
   '@babel/preset-env': 7.11.0_@babel+core@7.11.1
   ava: 3.11.1
   eslint: 7.7.0
@@ -829,6 +830,13 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-wNfsc4s8N2qnIwpO/WP2ZiSyjfpTamT2C9V9FDH/Ljub9zw6P3SjkXcFmc0RQUt96k2fmIvtla2MMjgTwIAC+A==
+  /@babel/polyfill/7.10.4:
+    dependencies:
+      core-js: 2.6.11
+      regenerator-runtime: 0.13.7
+    dev: true
+    resolution:
+      integrity: sha512-8BYcnVqQ5kMD2HXoHInBH7H1b/uP3KdnwCYXOqFnXqguOyuu443WXusbIUbWEfY3Z0Txk0M1uG/8YuAMhNl6zg==
   /@babel/preset-env/7.11.0_@babel+core@7.11.1:
     dependencies:
       '@babel/compat-data': 7.11.0
@@ -1711,6 +1719,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7ItTKOhOZbznhXAQ2g/slGg1PJV5zDO/WdkTwi7UEOJmkvsE32PWvx6mKtDjiMpjnR2CNf6BAD6sSxIlv7ptng==
+  /core-js/2.6.11:
+    deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
   /core-util-is/1.0.2:
     dev: true
     optional: true
@@ -4618,6 +4632,7 @@ packages:
 specifiers:
   '@babel/cli': ^7.10.5
   '@babel/core': ^7.11.1
+  '@babel/polyfill': ^7.10.4
   '@babel/preset-env': ^7.11.0
   ava: ^3.11.1
   eslint: ^7.7.0
