@@ -41,6 +41,7 @@ export function create(opts) {
     }
     // run
     let elements = queue.slice(0, numElements);
+    queue = queue.slice(numElements);
     try {
       await fn(elements);
     } catch (e) {
